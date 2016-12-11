@@ -1,6 +1,6 @@
 <?php
 
-class Tweet extends AppModel{
-  
+class Search extends AppModel{
+
 
 }
