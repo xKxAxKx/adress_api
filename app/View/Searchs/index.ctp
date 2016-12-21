@@ -10,23 +10,33 @@
     </form>
 
     <?php if($obj) :?>
-        <h3>検索結果</h3>
-        <table class="table">
-            <tbody>
-              <tr>
-                <th scope="row">都道府県</th>
-              </tr>
-              <tr>
-                <th scope="row">市</th>
-              </tr>
-              <tr>
-                <th scope="row">区</th>
-              </tr>
-              <tr>
-                <th scope="row">町村</th>
-              </tr>
-            </tbody>
-        </table>
+        <div class="col-md-6">
+            <h3>検索結果</h3>
+            <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">都道府県</th>
+                    <td scope="row"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">市</th>
+                    <td scope="row">test</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">区</th>
+                    <td scope="row">test</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">町村</th>
+                    <td scope="row">test</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">地図</th>
+                    <td scope="row">test</td>
+                  </tr>
+                </tbody>
+            </table>
+        </div>
     <?php else :?>
         <p>なにもありません</p>
     <?php endif; ?>
