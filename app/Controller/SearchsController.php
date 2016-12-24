@@ -11,6 +11,7 @@ class SearchsController extends AppController{
             //取得したデータを配列に変換
             $obj = json_decode($json, true);
 
+            $this->set('adress', $adress);
             $this->set('obj', $obj);
         }
 
